@@ -5,9 +5,14 @@
     "deploy": "vercel"
   },
   "dependencies": {
+    "@neondatabase/serverless": "^1.0.0",
+    "dotenv": "^16.5.0",
+    "drizzle-orm": "^0.43.1",
     "hono": "^4.7.9"
   },
   "devDependencies": {
+    "drizzle-kit": "^0.31.1",
+    "tsx": "^4.19.4",
     "vercel": "^32.4.1"
   }
 }
